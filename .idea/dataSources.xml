@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4165615433">
+    <data-source source="LOCAL" name="mysql-bugipc" product="MySQL" version="5.6.11-log" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )" uuid="38fa631f-a395-4c06-b28e-a19c16d14df1">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.66.19.175/blog</jdbc-url>
+      <user-name>cms</user-name>
+      <user-password>dfc9dfc7dfd9df9bdf98df99</user-password>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21.jar!/</url>
+        </library>
+      </libraries>
+      <ssh-properties>
+        <enabled>false</enabled>
+        <proxy-host />
+        <proxy-port>22</proxy-port>
+        <user />
+        <use-password>true</use-password>
+        <password />
+        <private-key-path />
+        <passphrase />
+        <remote-host />
+        <remote-port />
+        <local-port />
+      </ssh-properties>
+    </data-source>
+    <data-source source="LOCAL" name="hsqldb-servlet" product="HSQL Database Engine" version="2.2.9" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.9" uuid="cf3a2d2c-3ca4-4914-afe1-ecc8ae8fabe2">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:http://localhost:8080/front/hsqldb</jdbc-url>
+      <user-name>SA</user-name>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.9/hsqldb-2.2.9.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

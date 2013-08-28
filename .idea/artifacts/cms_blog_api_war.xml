@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cms-blog-api:war">
+    <output-path>$PROJECT_DIR$/cms-blog-box/cms-blog-api/target</output-path>
+    <root id="archive" name="cms-blog-api-0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cms-blog-api:war exploded" />
+    </root>
+  </artifact>
+</component>

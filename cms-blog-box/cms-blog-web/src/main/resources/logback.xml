@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] [%-5level] [%c:%M:%L] - %m%n</Pattern>
+        </encoder>
+    </appender>
+
+    <!--
+    <timestamp key="date" datePattern="yyyyMMdd"/>
+
+    <appender name="SQL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.sql.home:-}/${app.name}-sql.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.sql.home:-}/${app.name}-sql.%d{yyyyMMdd}.log</fileNamePattern>
+            <maxHistory>14</maxHistory>
+        </rollingPolicy>
+        <filter class="com.nbp.uwin.log.JaninoEvaluatorFilter"/>
+
+        <encoder>
+            <Pattern>[%d{yyyyMMdd.HHmmss.SSS}] %m%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ASYNC-SQL" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>4096</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <appender-ref ref="SQL"/>
+    </appender>
+
+    <appender name="ASYNC-STDOUT" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>1024</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="STDOUT"/>
+    </appender>
+
+      -->
+    <logger name="com.joon" level="DEBUG"/>
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="org.hibernate" level="INFO"/>
+    <logger name="org.hsqldb" level="DEBUG"/>
+
+    <root level="ERROR">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

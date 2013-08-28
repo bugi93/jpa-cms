@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cms-static:war exploded">
+    <output-path>$PROJECT_DIR$/cms-core-box/cms-static/target/cms-static-0.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cms-static/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cms-static" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="classpath*:META-INF/spring/applicationContext.xml"/>
+
+    <!--
+    <import resource="classpath:/META-INF/spring/spring-static-context.xml"/>
+    <import resource="classpath:/META-INF/spring/spring-resttemplate-context.xml"/>
+    <import resource="classpath:/spring-security-context.xml"/>
+
+    <bean id="encryptionService" class="com.nbp.nmp.crypto.api.v1.EncryptionServiceImpl"/>
+    <context:component-scan base-package="com.nbp.uwin.user.auth" />
+    -->
+
+</beans>
